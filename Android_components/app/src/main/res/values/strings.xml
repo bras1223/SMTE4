@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spotify</string>
+    <string-array name="music_array">
+        <item>Number 1 - Artist</item>
+        <item>Number 2 - Artist</item>
+        <item>Number 3 - Artist</item>
+        <item>Number 4 - Artist</item>
+        <item>Number 5 - Artist</item>
+        <item>Number 6 - Artist</item>
+        <item>Number 7 - Artist</item>
+    </string-array>
+</resources>
