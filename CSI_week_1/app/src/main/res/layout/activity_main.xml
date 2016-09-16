@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="0px"
+    tools:context="csi.fhict.org.csi_week_1.MainActivity"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="@string/face_description"
+        android:layout_width="197dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/maffia"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.95"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/background"
+        android:baselineAligned="true">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1.08">
+        <TableRow android:background="#6b4444"
+            android:layout_margin="5dp">
+            <TextView android:text="Name:"
+                android:paddingRight="50dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+            <TextView android:text="@string/face_name"
+                android:paddingRight="50dp"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+        <TableRow android:background="#6b4444"
+            android:layout_margin="5dp">
+            <TextView android:text="Gender:"
+                android:paddingRight="50dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+            <TextView android:text="@string/face_gender"
+                android:paddingRight="50dp"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+        <TableRow android:background="#6b4444"
+            android:layout_margin="5dp">
+            <TextView android:text="Age:"
+                android:paddingRight="50dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+            <TextView android:text="@string/face_age"
+                android:paddingRight="50dp"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+        <TableRow android:background="#6b4444"
+            android:layout_margin="5dp">
+            <TextView android:text="Bounty:"
+                android:paddingRight="50dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+            <TextView android:text="@string/face_bounty"
+                android:paddingRight="50dp"
+                android:textIsSelectable="false"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/details"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat diam vitae sapien egestas commodo. Donec vel ornare augue. Cras gravida orci velit, et dictum urna feugiat vel. Nullam sagittis bibendum sapien vel condimentum. Donec rhoncus semper rutrum. Nunc et dui quis nibh varius molestie. Fusce egestas imperdiet elit eget dapibus. Vivamus ut fermentum velit. Etiam blandit enim nisi, ac mattis libero rhoncus nec. Donec eget elementum velit. Aenean mattis diam in mollis hendrerit. Quisque dapibus laoreet lectus, quis pellentesque ante posuere eu. Proin eu dignissim tellus. Donec eu erat quis orci feugiat gravida. Vivamus tristique turpis id ullamcorper tempor. Suspendisse potenti. "
+                android:id="@+id/textView2"
+                android:textColor="#ffffff" />
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:id="@+id/report"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CSI_week_1</string>
+    <string name="face_description">face</string>
+    <string name="face_name">Harrold</string>
+    <string name="face_age">47</string>
+    <string name="face_gender">Sir</string>
+    <string name="face_bounty">$40000</string>
+    <string name="details">Details:</string>
+</resources>
